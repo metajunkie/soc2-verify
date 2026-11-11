@@ -1,0 +1,24 @@
+# Real vendor material never goes in this repository: SOC reports and anything derived from them are
+# normally under NDA. Only the fictional samples are tracked.
+Vendors/*
+!Vendors/Sample-A/
+!Vendors/Sample-B/
+!Vendors/Sample-C/
+Vendors/Sample-*/Review_*/
+Vendors/Sample-*/extraction_hybrid_*
+Vendors/Sample-*/extraction_local_*
+
+# Licensed framework content generated from your own copies
+soc2v2/criteria/tsc_2017_aicpa.json
+soc2v2/criteria/ccm_crosswalk.json
+*.xls
+
+# Local state and secrets
+integrations/open-webui/.token
+integrations/open-webui/.venv/
+integrations/open-webui/*.log
+integrations/open-webui/*.pid
+batch_*.log
+__pycache__/
+*.pyc
+.DS_Store

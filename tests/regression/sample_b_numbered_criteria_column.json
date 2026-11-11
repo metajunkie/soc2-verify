@@ -1,0 +1,419 @@
+{
+ "case": "sample_b_numbered_criteria_column",
+ "counts": {
+  "INFO": 4,
+  "PASS": 20
+ },
+ "extraction": "extraction_truth.json",
+ "extraction_sha256": "141cfa5df66634d2353d76ec930adee825f7e4be093c7d75877b929bb9081745",
+ "overall": "PASS",
+ "parser": {
+  "controls": {
+   "1": {
+    "criteria": [
+     "CC1.1"
+    ],
+    "quote_page": 5,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "10": {
+    "criteria": [
+     "CC3.2"
+    ],
+    "quote_page": 6,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "11": {
+    "criteria": [
+     "CC3.3"
+    ],
+    "quote_page": 6,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "12": {
+    "criteria": [
+     "CC3.4"
+    ],
+    "quote_page": 6,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "13": {
+    "criteria": [
+     "CC4.1"
+    ],
+    "quote_page": 6,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "14": {
+    "criteria": [
+     "CC4.2"
+    ],
+    "quote_page": 6,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "15": {
+    "criteria": [
+     "CC5.1"
+    ],
+    "quote_page": 6,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "16": {
+    "criteria": [
+     "CC5.2"
+    ],
+    "quote_page": 6,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "17": {
+    "criteria": [
+     "CC5.3"
+    ],
+    "quote_page": 6,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "18": {
+    "criteria": [
+     "CC2.1",
+     "CC6.1"
+    ],
+    "quote_page": 6,
+    "results": [
+     "no_exceptions",
+     "no_exceptions"
+    ]
+   },
+   "19": {
+    "criteria": [
+     "CC2.1",
+     "CC6.1"
+    ],
+    "quote_page": 7,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "2": {
+    "criteria": [
+     "CC1.2"
+    ],
+    "quote_page": 5,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "20": {
+    "criteria": [
+     "CC6.2"
+    ],
+    "quote_page": 7,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "21": {
+    "criteria": [
+     "CC6.2"
+    ],
+    "quote_page": 7,
+    "results": [
+     "exception"
+    ]
+   },
+   "22": {
+    "criteria": [
+     "CC6.3"
+    ],
+    "quote_page": 7,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "23": {
+    "criteria": [
+     "CC6.4"
+    ],
+    "quote_page": 7,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "24": {
+    "criteria": [
+     "CC6.5"
+    ],
+    "quote_page": 7,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "25": {
+    "criteria": [
+     "CC6.6"
+    ],
+    "quote_page": 7,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "26": {
+    "criteria": [
+     "CC6.7"
+    ],
+    "quote_page": 8,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "27": {
+    "criteria": [
+     "CC6.8"
+    ],
+    "quote_page": 8,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "28": {
+    "criteria": [
+     "CC7.1"
+    ],
+    "quote_page": 8,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "29": {
+    "criteria": [
+     "CC7.2"
+    ],
+    "quote_page": 8,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "3": {
+    "criteria": [
+     "CC1.3"
+    ],
+    "quote_page": 5,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "30": {
+    "criteria": [
+     "CC7.2"
+    ],
+    "quote_page": 8,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "31": {
+    "criteria": [
+     "CC7.3"
+    ],
+    "quote_page": 8,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "32": {
+    "criteria": [
+     "CC7.4"
+    ],
+    "quote_page": 8,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "33": {
+    "criteria": [
+     "CC7.5"
+    ],
+    "quote_page": 8,
+    "results": [
+     "not_tested"
+    ]
+   },
+   "34": {
+    "criteria": [
+     "CC8.1"
+    ],
+    "quote_page": 8,
+    "results": [
+     "no_exceptions",
+     "no_exceptions"
+    ]
+   },
+   "35": {
+    "criteria": [
+     "CC8.1"
+    ],
+    "quote_page": 8,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "36": {
+    "criteria": [
+     "CC9.1"
+    ],
+    "quote_page": 9,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "37": {
+    "criteria": [
+     "CC9.2"
+    ],
+    "quote_page": 9,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "38": {
+    "criteria": [
+     "A1.1"
+    ],
+    "quote_page": 9,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "39": {
+    "criteria": [
+     "A1.2"
+    ],
+    "quote_page": 9,
+    "results": [
+     "no_exceptions",
+     "no_exceptions"
+    ]
+   },
+   "4": {
+    "criteria": [
+     "CC1.4"
+    ],
+    "quote_page": 5,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "40": {
+    "criteria": [
+     "A1.3"
+    ],
+    "quote_page": 9,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "5": {
+    "criteria": [
+     "CC1.5"
+    ],
+    "quote_page": 5,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "6": {
+    "criteria": [
+     "CC2.1"
+    ],
+    "quote_page": 5,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "7": {
+    "criteria": [
+     "CC2.2"
+    ],
+    "quote_page": 5,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "8": {
+    "criteria": [
+     "CC2.3"
+    ],
+    "quote_page": 5,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "9": {
+    "criteria": [
+     "CC3.1"
+    ],
+    "quote_page": 5,
+    "results": [
+     "no_exceptions"
+    ]
+   }
+  },
+  "counts": {
+   "clean": 41,
+   "controls": 40,
+   "exceptions": 1,
+   "independent_clean_count": 41,
+   "tests": 43
+  },
+  "layout": "numbered controls + criteria column",
+  "layout_gate": "PASS"
+ },
+ "parser_version": "2026.11.11-2",
+ "review_date": "2026-11-10",
+ "source_pdf": "Larkspur Data Services SOC 2 Type II Report (fictional).pdf",
+ "source_pdf_sha256": "a5efdc5924fb6e4c39c1b71bc6a1200b2acb8189ad829d224974d45ef6755d23",
+ "verifier_checks": {
+  "Completeness :: Control IDs found in testing section": "INFO",
+  "Completeness :: Every control in the report was extracted": "PASS",
+  "Completeness :: Test results reconcile to PDF": "PASS",
+  "Coverage: Trust Services Criteria :: Availability: all criteria addressed": "PASS",
+  "Coverage: Trust Services Criteria :: Security: all criteria addressed": "PASS",
+  "Dates :: Bridge (gap) letter": "PASS",
+  "Dates :: Bridge letter: Larkspur Data Services Bridge Letter (fictional).pdf": "INFO",
+  "Dates :: Report is current": "PASS",
+  "Dates :: Type II period length": "PASS",
+  "Evidence quotes :: Quotes verified on cited page": "PASS",
+  "Exceptions (independent scan) :: All scanner hits are covered by the extraction": "PASS",
+  "Exceptions (independent scan) :: Clean result statements counted in PDF": "INFO",
+  "Integrity :: Page numbering": "INFO",
+  "Integrity :: Source PDF hash matches extraction": "PASS",
+  "Opinion :: Opinion is unqualified": "PASS",
+  "Report facts :: Auditor firm: 'Example Assurance LLP'": "PASS",
+  "Report facts :: Issue date: 2026-05-12": "PASS",
+  "Report facts :: Period end: 2026-03-31": "PASS",
+  "Report facts :: Period start: 2025-04-01": "PASS",
+  "Report facts :: Service organization: 'Larkspur Data Services, LLC'": "PASS",
+  "Report facts :: System name: 'Larkspur Cloud Console'": "PASS",
+  "Scope: TSC categories :: Availability in scope": "PASS",
+  "Scope: TSC categories :: Security in scope": "PASS",
+  "Scope: services used :: 'Larkspur Cloud Console' described in report": "PASS"
+ },
+ "verifier_version": "2.0.0"
+}

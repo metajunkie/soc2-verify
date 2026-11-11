@@ -1,0 +1,16 @@
+# Fictional sample scope profile
+client: "Sample Client"
+vendor: "Acme Analytics, Inc."
+reviewer: "Sample Reviewer"
+services_used:
+  - "Acme Insights Platform"
+  - "Acme browser extension | Acme chrome extension"
+data_types:
+  - business_contact
+required_tsc_categories:
+  - Security
+  - Availability
+criticality: medium
+max_report_age_months: 12
+bridge_letter_after_months: 3
+overlays: []

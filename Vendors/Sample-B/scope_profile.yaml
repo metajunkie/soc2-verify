@@ -1,0 +1,15 @@
+# Fictional sample scope profile
+client: "Sample Client"
+vendor: "Larkspur Data Services, LLC"
+reviewer: "Sample Reviewer"
+services_used:
+  - "Larkspur Cloud Console"
+data_types:
+  - business_contact
+required_tsc_categories:
+  - Security
+  - Availability
+criticality: medium
+max_report_age_months: 12
+bridge_letter_after_months: 3
+overlays: []

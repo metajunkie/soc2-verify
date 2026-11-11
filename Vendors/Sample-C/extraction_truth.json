@@ -1,0 +1,933 @@
+{
+  "schema_version": "1.0",
+  "extractor": {
+    "model": "ground truth (generator)",
+    "tool": "tools/make_samples.py",
+    "run_at": "2026-11-11T00:00:00",
+    "notes": "Fictional sample; every value is known by construction.",
+    "stats": {
+      "method": "Ground truth"
+    }
+  },
+  "source": {
+    "file": "Tidewater Edge Systems SOC 2 Type II Report (fictional).pdf",
+    "sha256": "c541c568960cfc520239519b99ac004a58203fa6c4870a5d493685ba3cc17404",
+    "page_count": 10
+  },
+  "report": {
+    "service_org": "Tidewater Edge Systems, Inc.",
+    "system_name": "Tidewater Edge Gateway",
+    "products_in_scope": [
+      "Tidewater Edge Gateway"
+    ],
+    "report_type": "SOC 2 Type II",
+    "period_start": "2024-11-01",
+    "period_end": "2025-10-31",
+    "issue_date": "2026-02-02",
+    "auditor": "Sample Attest Partners, LLC",
+    "opinion": {
+      "type": "unqualified",
+      "evidence": {
+        "quote": "In our opinion, in all material respects, the description presents the Tidewater Edge Gateway",
+        "pdf_page": 2,
+        "printed_page": 2
+      }
+    },
+    "tsc_categories_in_scope": [
+      "Security",
+      "Availability"
+    ],
+    "evidence": [
+      {
+        "quote": "For the period November 1, 2024 to October 31, 2025",
+        "pdf_page": 1,
+        "printed_page": 1
+      },
+      {
+        "quote": "Denver, Colorado February 2, 2026",
+        "pdf_page": 2,
+        "printed_page": 2
+      }
+    ]
+  },
+  "subservice_orgs": [
+    {
+      "name": "Example Cloud Hosting, Inc.",
+      "method": "carve-out",
+      "services": "Cloud hosting",
+      "evidence": {
+        "quote": "Tidewater Edge Systems, Inc. uses Example Cloud Hosting, Inc. for cloud hosting services.",
+        "pdf_page": 4,
+        "printed_page": 4
+      }
+    }
+  ],
+  "cuecs": [
+    {
+      "text": "User entities are responsible for granting access only to authorized and trained personnel.",
+      "criteria": [],
+      "evidence": {
+        "quote": "User entities are responsible for granting access only to authorized and trained personnel.",
+        "pdf_page": 4,
+        "printed_page": 4
+      }
+    },
+    {
+      "text": "User entities are responsible for removing access for their personnel who no longer need it.",
+      "criteria": [],
+      "evidence": {
+        "quote": "User entities are responsible for removing access for their personnel who no longer need it.",
+        "pdf_page": 4,
+        "printed_page": 4
+      }
+    },
+    {
+      "text": "User entities are responsible for reporting suspected security incidents promptly.",
+      "criteria": [],
+      "evidence": {
+        "quote": "User entities are responsible for reporting suspected security incidents promptly.",
+        "pdf_page": 4,
+        "printed_page": 4
+      }
+    },
+    {
+      "text": "User entities are responsible for protecting the credentials used to access the system.",
+      "criteria": [],
+      "evidence": {
+        "quote": "User entities are responsible for protecting the credentials used to access the system.",
+        "pdf_page": 4,
+        "printed_page": 4
+      }
+    }
+  ],
+  "controls": [
+    {
+      "id": "CC1.1#1",
+      "criteria": [
+        "CC1.1"
+      ],
+      "description": "Management maintains documented procedures for integrity and ethical values. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for integrity and ethical values were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for integrity and ethical values. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 5,
+        "printed_page": 5
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC1.2#1",
+      "criteria": [
+        "CC1.2"
+      ],
+      "description": "Management maintains documented procedures for board independence and oversight. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for board independence and oversight were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for board independence and oversight. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 5,
+        "printed_page": 5
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC1.3#1",
+      "criteria": [
+        "CC1.3"
+      ],
+      "description": "Management maintains documented procedures for structures, reporting lines, authority. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for structures, reporting lines, authority were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for structures, reporting lines, authority. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 5,
+        "printed_page": 5
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC1.4#1",
+      "criteria": [
+        "CC1.4"
+      ],
+      "description": "Management maintains documented procedures for competence: attract, develop, retain. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for competence: attract, develop, retain were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for competence: attract, develop, retain. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 5,
+        "printed_page": 5
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC1.5#1",
+      "criteria": [
+        "CC1.5"
+      ],
+      "description": "Management maintains documented procedures for accountability for internal control. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for accountability for internal control were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for accountability for internal control. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 5,
+        "printed_page": 5
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC2.1#1",
+      "criteria": [
+        "CC2.1"
+      ],
+      "description": "Management maintains documented procedures for quality information for internal control. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for quality information for internal control were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for quality information for internal control. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 5,
+        "printed_page": 5
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC2.2#1",
+      "criteria": [
+        "CC2.2"
+      ],
+      "description": "Management maintains documented procedures for internal communication. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for internal communication were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for internal communication. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 5,
+        "printed_page": 5
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC2.3#1",
+      "criteria": [
+        "CC2.3"
+      ],
+      "description": "Management maintains documented procedures for external communication. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for external communication were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for external communication. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 6,
+        "printed_page": 6
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC3.1#1",
+      "criteria": [
+        "CC3.1"
+      ],
+      "description": "Management maintains documented procedures for objectives specified for risk identification. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for objectives specified for risk identification were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for objectives specified for risk identification. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 6,
+        "printed_page": 6
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC3.2#1",
+      "criteria": [
+        "CC3.2"
+      ],
+      "description": "Management maintains documented procedures for risk identification and analysis. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for risk identification and analysis were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for risk identification and analysis. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 6,
+        "printed_page": 6
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC3.3#1",
+      "criteria": [
+        "CC3.3"
+      ],
+      "description": "Management maintains documented procedures for fraud risk. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for fraud risk were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for fraud risk. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 6,
+        "printed_page": 6
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC3.4#1",
+      "criteria": [
+        "CC3.4"
+      ],
+      "description": "Management maintains documented procedures for changes that impact internal control. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for changes that impact internal control were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for changes that impact internal control. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 6,
+        "printed_page": 6
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC4.1#1",
+      "criteria": [
+        "CC4.1"
+      ],
+      "description": "Management maintains documented procedures for ongoing / separate evaluations. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for ongoing / separate evaluations were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for ongoing / separate evaluations. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 6,
+        "printed_page": 6
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC4.2#1",
+      "criteria": [
+        "CC4.2"
+      ],
+      "description": "Management maintains documented procedures for communicating control deficiencies. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for communicating control deficiencies were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for communicating control deficiencies. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 6,
+        "printed_page": 6
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC5.1#1",
+      "criteria": [
+        "CC5.1"
+      ],
+      "description": "Management maintains documented procedures for control activities selected to mitigate risk. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for control activities selected to mitigate risk were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for control activities selected to mitigate risk. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 7,
+        "printed_page": 7
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC5.2#1",
+      "criteria": [
+        "CC5.2"
+      ],
+      "description": "Management maintains documented procedures for general controls over technology. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for general controls over technology were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for general controls over technology. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 7,
+        "printed_page": 7
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC5.3#1",
+      "criteria": [
+        "CC5.3"
+      ],
+      "description": "Management maintains documented procedures for policies and procedures. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for policies and procedures were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for policies and procedures. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 7,
+        "printed_page": 7
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC6.1#1",
+      "criteria": [
+        "CC6.1"
+      ],
+      "description": "Management maintains documented procedures for logical access security architecture. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for logical access security architecture were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        },
+        {
+          "procedure": "For a sample of changes during the period, inspected the change record to determine that each change was reviewed and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for logical access security architecture. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 7,
+        "printed_page": 7
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC6.1#2",
+      "criteria": [
+        "CC6.1"
+      ],
+      "description": "Changes affecting logical access security architecture are tracked, reviewed and approved before they take effect.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for logical access security architecture were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Changes affecting logical access security architecture are tracked, reviewed and approved before they take effect.",
+        "pdf_page": 7,
+        "printed_page": 7
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC6.2#1",
+      "criteria": [
+        "CC6.2"
+      ],
+      "description": "Management maintains documented procedures for user registration and authorization. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for user registration and authorization were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for user registration and authorization. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 7,
+        "printed_page": 7
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC6.2#2",
+      "criteria": [
+        "CC6.2"
+      ],
+      "description": "Access for terminated personnel is removed within one business day of termination.",
+      "tests": [
+        {
+          "procedure": "For a sample of twenty-five terminated users, inspected access removal records to determine that access was removed within one business day.",
+          "result": "exception",
+          "result_text": "Exception noted. For one (1) of twenty-five (25) sampled terminated users, access was removed nine business days after termination. Management's response: the account was disabled when the exception was identified, and no activity occurred after the termination date. An automated deprovisioning check was added in May."
+        }
+      ],
+      "evidence": {
+        "quote": "Access for terminated personnel is removed within one business day of termination.",
+        "pdf_page": 8,
+        "printed_page": 8
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC6.3#1",
+      "criteria": [
+        "CC6.3"
+      ],
+      "description": "Management maintains documented procedures for access modification and removal (least privilege). The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for access modification and removal (least privilege) were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for access modification and removal (least privilege). The procedures are reviewed and approved at least annually.",
+        "pdf_page": 8,
+        "printed_page": 8
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC6.4#1",
+      "criteria": [
+        "CC6.4"
+      ],
+      "description": "Management maintains documented procedures for physical access restrictions. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for physical access restrictions were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for physical access restrictions. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 8,
+        "printed_page": 8
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC6.5#1",
+      "criteria": [
+        "CC6.5"
+      ],
+      "description": "Management maintains documented procedures for asset disposal / data destruction. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for asset disposal / data destruction were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for asset disposal / data destruction. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 8,
+        "printed_page": 8
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC6.6#1",
+      "criteria": [
+        "CC6.6"
+      ],
+      "description": "Management maintains documented procedures for protection against external threats (boundary). The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for protection against external threats (boundary) were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for protection against external threats (boundary). The procedures are reviewed and approved at least annually.",
+        "pdf_page": 8,
+        "printed_page": 8
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC6.7#1",
+      "criteria": [
+        "CC6.7"
+      ],
+      "description": "Management maintains documented procedures for data transmission and movement restrictions. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for data transmission and movement restrictions were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for data transmission and movement restrictions. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 8,
+        "printed_page": 8
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC6.8#1",
+      "criteria": [
+        "CC6.8"
+      ],
+      "description": "Management maintains documented procedures for malicious / unauthorized software prevention. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for malicious / unauthorized software prevention were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for malicious / unauthorized software prevention. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 9,
+        "printed_page": 9
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC7.1#1",
+      "criteria": [
+        "CC7.1"
+      ],
+      "description": "Management maintains documented procedures for configuration and vulnerability detection. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for configuration and vulnerability detection were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for configuration and vulnerability detection. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 9,
+        "printed_page": 9
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC7.2#1",
+      "criteria": [
+        "CC7.2"
+      ],
+      "description": "Management maintains documented procedures for monitoring for anomalies. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for monitoring for anomalies were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for monitoring for anomalies. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 9,
+        "printed_page": 9
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC7.2#2",
+      "criteria": [
+        "CC7.2"
+      ],
+      "description": "Changes affecting monitoring for anomalies are tracked, reviewed and approved before they take effect.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for monitoring for anomalies were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Changes affecting monitoring for anomalies are tracked, reviewed and approved before they take effect.",
+        "pdf_page": 9,
+        "printed_page": 9
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC7.3#1",
+      "criteria": [
+        "CC7.3"
+      ],
+      "description": "Management maintains documented procedures for security event evaluation. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for security event evaluation were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for security event evaluation. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 9,
+        "printed_page": 9
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC7.4#1",
+      "criteria": [
+        "CC7.4"
+      ],
+      "description": "Management maintains documented procedures for incident response. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for incident response were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for incident response. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 9,
+        "printed_page": 9
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC7.5#1",
+      "criteria": [
+        "CC7.5"
+      ],
+      "description": "Recovery from security incidents follows the documented incident recovery procedure.",
+      "tests": [
+        {
+          "procedure": "Inquired of management and inspected the incident log to determine whether any incidents requiring recovery occurred during the period.",
+          "result": "not_tested",
+          "result_text": "Not tested. No incidents requiring recovery occurred during the period."
+        }
+      ],
+      "evidence": {
+        "quote": "Recovery from security incidents follows the documented incident recovery procedure.",
+        "pdf_page": 9,
+        "printed_page": 9
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC8.1#1",
+      "criteria": [
+        "CC8.1"
+      ],
+      "description": "Management maintains documented procedures for change management. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for change management were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        },
+        {
+          "procedure": "For a sample of changes during the period, inspected the change record to determine that each change was reviewed and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for change management. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 9,
+        "printed_page": 9
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC8.1#2",
+      "criteria": [
+        "CC8.1"
+      ],
+      "description": "Changes affecting change management are tracked, reviewed and approved before they take effect.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for change management were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Changes affecting change management are tracked, reviewed and approved before they take effect.",
+        "pdf_page": 10,
+        "printed_page": 10
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC9.1#1",
+      "criteria": [
+        "CC9.1"
+      ],
+      "description": "Management maintains documented procedures for business disruption risk mitigation. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for business disruption risk mitigation were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for business disruption risk mitigation. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 10,
+        "printed_page": 10
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "CC9.2#1",
+      "criteria": [
+        "CC9.2"
+      ],
+      "description": "Management maintains documented procedures for vendor and business partner risk. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for vendor and business partner risk were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for vendor and business partner risk. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 10,
+        "printed_page": 10
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "A1.1#1",
+      "criteria": [
+        "A1.1"
+      ],
+      "description": "Management maintains documented procedures for capacity management. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for capacity management were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for capacity management. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 10,
+        "printed_page": 10
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "A1.2#1",
+      "criteria": [
+        "A1.2"
+      ],
+      "description": "Management maintains documented procedures for environmental protections, backup, recovery infrastructure. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for environmental protections, backup, recovery infrastructure were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        },
+        {
+          "procedure": "For a sample of changes during the period, inspected the change record to determine that each change was reviewed and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for environmental protections, backup, recovery infrastructure. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 10,
+        "printed_page": 10
+      },
+      "id_source": "synthetic"
+    },
+    {
+      "id": "A1.3#1",
+      "criteria": [
+        "A1.3"
+      ],
+      "description": "Management maintains documented procedures for recovery plan testing. The procedures are reviewed and approved at least annually.",
+      "tests": [
+        {
+          "procedure": "Inspected the documented procedures and evidence of the annual review to determine that procedures for recovery plan testing were in place and approved.",
+          "result": "no_exceptions",
+          "result_text": "No exceptions noted."
+        }
+      ],
+      "evidence": {
+        "quote": "Management maintains documented procedures for recovery plan testing. The procedures are reviewed and approved at least annually.",
+        "pdf_page": 10,
+        "printed_page": 10
+      },
+      "id_source": "synthetic"
+    }
+  ],
+  "exceptions": [
+    {
+      "control_id": "CC6.2#2",
+      "text": "For one (1) of twenty-five (25) sampled terminated users, access was removed nine business days after termination.",
+      "management_response": "Management's response: the account was disabled when the exception was identified, and no activity occurred after the termination date. An automated deprovisioning check was added in May.",
+      "evidence": {
+        "quote": "For one (1) of twenty-five (25) sampled terminated users, access was removed nine business days after termination.",
+        "pdf_page": 8,
+        "printed_page": 8
+      }
+    }
+  ],
+  "claims": []
+}

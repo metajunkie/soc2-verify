@@ -1,0 +1,419 @@
+{
+ "case": "sample_c_headings_unnumbered",
+ "counts": {
+  "FAIL": 1,
+  "INFO": 4,
+  "PASS": 17,
+  "REVIEW": 2
+ },
+ "extraction": "extraction_truth.json",
+ "extraction_sha256": "d5f95d2992ad9ecea95cf81a9ac2a3cbf2f23fb30dea654673afda282252df9e",
+ "overall": "FAIL",
+ "parser": {
+  "controls": {
+   "A1.1#1": {
+    "criteria": [
+     "A1.1"
+    ],
+    "quote_page": 10,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "A1.2#1": {
+    "criteria": [
+     "A1.2"
+    ],
+    "quote_page": 10,
+    "results": [
+     "no_exceptions",
+     "no_exceptions"
+    ]
+   },
+   "A1.3#1": {
+    "criteria": [
+     "A1.3"
+    ],
+    "quote_page": 10,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC1.1#1": {
+    "criteria": [
+     "CC1.1"
+    ],
+    "quote_page": 5,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC1.2#1": {
+    "criteria": [
+     "CC1.2"
+    ],
+    "quote_page": 5,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC1.3#1": {
+    "criteria": [
+     "CC1.3"
+    ],
+    "quote_page": 5,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC1.4#1": {
+    "criteria": [
+     "CC1.4"
+    ],
+    "quote_page": 5,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC1.5#1": {
+    "criteria": [
+     "CC1.5"
+    ],
+    "quote_page": 5,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC2.1#1": {
+    "criteria": [
+     "CC2.1"
+    ],
+    "quote_page": 5,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC2.2#1": {
+    "criteria": [
+     "CC2.2"
+    ],
+    "quote_page": 5,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC2.3#1": {
+    "criteria": [
+     "CC2.3"
+    ],
+    "quote_page": 6,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC3.1#1": {
+    "criteria": [
+     "CC3.1"
+    ],
+    "quote_page": 6,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC3.2#1": {
+    "criteria": [
+     "CC3.2"
+    ],
+    "quote_page": 6,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC3.3#1": {
+    "criteria": [
+     "CC3.3"
+    ],
+    "quote_page": 6,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC3.4#1": {
+    "criteria": [
+     "CC3.4"
+    ],
+    "quote_page": 6,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC4.1#1": {
+    "criteria": [
+     "CC4.1"
+    ],
+    "quote_page": 6,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC4.2#1": {
+    "criteria": [
+     "CC4.2"
+    ],
+    "quote_page": 6,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC5.1#1": {
+    "criteria": [
+     "CC5.1"
+    ],
+    "quote_page": 7,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC5.2#1": {
+    "criteria": [
+     "CC5.2"
+    ],
+    "quote_page": 7,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC5.3#1": {
+    "criteria": [
+     "CC5.3"
+    ],
+    "quote_page": 7,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC6.1#1": {
+    "criteria": [
+     "CC6.1"
+    ],
+    "quote_page": 7,
+    "results": [
+     "no_exceptions",
+     "no_exceptions"
+    ]
+   },
+   "CC6.1#2": {
+    "criteria": [
+     "CC6.1"
+    ],
+    "quote_page": 7,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC6.2#1": {
+    "criteria": [
+     "CC6.2"
+    ],
+    "quote_page": 7,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC6.2#2": {
+    "criteria": [
+     "CC6.2"
+    ],
+    "quote_page": 8,
+    "results": [
+     "exception"
+    ]
+   },
+   "CC6.3#1": {
+    "criteria": [
+     "CC6.3"
+    ],
+    "quote_page": 8,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC6.4#1": {
+    "criteria": [
+     "CC6.4"
+    ],
+    "quote_page": 8,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC6.5#1": {
+    "criteria": [
+     "CC6.5"
+    ],
+    "quote_page": 8,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC6.6#1": {
+    "criteria": [
+     "CC6.6"
+    ],
+    "quote_page": 8,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC6.7#1": {
+    "criteria": [
+     "CC6.7"
+    ],
+    "quote_page": 8,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC6.8#1": {
+    "criteria": [
+     "CC6.8"
+    ],
+    "quote_page": 9,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC7.1#1": {
+    "criteria": [
+     "CC7.1"
+    ],
+    "quote_page": 9,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC7.2#1": {
+    "criteria": [
+     "CC7.2"
+    ],
+    "quote_page": 9,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC7.2#2": {
+    "criteria": [
+     "CC7.2"
+    ],
+    "quote_page": 9,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC7.3#1": {
+    "criteria": [
+     "CC7.3"
+    ],
+    "quote_page": 9,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC7.4#1": {
+    "criteria": [
+     "CC7.4"
+    ],
+    "quote_page": 9,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC7.5#1": {
+    "criteria": [
+     "CC7.5"
+    ],
+    "quote_page": 9,
+    "results": [
+     "not_tested"
+    ]
+   },
+   "CC8.1#1": {
+    "criteria": [
+     "CC8.1"
+    ],
+    "quote_page": 9,
+    "results": [
+     "no_exceptions",
+     "no_exceptions"
+    ]
+   },
+   "CC8.1#2": {
+    "criteria": [
+     "CC8.1"
+    ],
+    "quote_page": 10,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC9.1#1": {
+    "criteria": [
+     "CC9.1"
+    ],
+    "quote_page": 10,
+    "results": [
+     "no_exceptions"
+    ]
+   },
+   "CC9.2#1": {
+    "criteria": [
+     "CC9.2"
+    ],
+    "quote_page": 10,
+    "results": [
+     "no_exceptions"
+    ]
+   }
+  },
+  "counts": {
+   "clean": 41,
+   "controls": 40,
+   "exceptions": 1,
+   "independent_clean_count": 41,
+   "tests": 43
+  },
+  "layout": "criterion headings, unnumbered controls",
+  "layout_gate": "PASS"
+ },
+ "parser_version": "2026.11.11-2",
+ "review_date": "2026-11-10",
+ "source_pdf": "Tidewater Edge Systems SOC 2 Type II Report (fictional).pdf",
+ "source_pdf_sha256": "c541c568960cfc520239519b99ac004a58203fa6c4870a5d493685ba3cc17404",
+ "verifier_checks": {
+  "Completeness :: Control IDs found in testing section": "INFO",
+  "Completeness :: Report does not number its controls": "INFO",
+  "Completeness :: Test results reconcile to PDF": "PASS",
+  "Coverage: Trust Services Criteria :: Availability: all criteria addressed": "PASS",
+  "Coverage: Trust Services Criteria :: Security: all criteria addressed": "PASS",
+  "Dates :: Bridge (gap) letter": "REVIEW",
+  "Dates :: Report is current": "FAIL",
+  "Dates :: Type II period length": "PASS",
+  "Evidence quotes :: Quotes verified on cited page": "PASS",
+  "Exceptions (independent scan) :: All scanner hits are covered by the extraction": "PASS",
+  "Exceptions (independent scan) :: Clean result statements counted in PDF": "INFO",
+  "Integrity :: Page numbering": "INFO",
+  "Integrity :: Source PDF hash matches extraction": "PASS",
+  "Opinion :: Opinion is unqualified": "PASS",
+  "Report facts :: Auditor firm: 'Sample Attest Partners, LLC'": "PASS",
+  "Report facts :: Issue date: 2026-02-02": "PASS",
+  "Report facts :: Period end: 2025-10-31": "PASS",
+  "Report facts :: Period start: 2024-11-01": "PASS",
+  "Report facts :: Service organization: 'Tidewater Edge Systems, Inc.'": "PASS",
+  "Report facts :: System name: 'Tidewater Edge Gateway'": "PASS",
+  "Scope: TSC categories :: Availability in scope": "PASS",
+  "Scope: TSC categories :: Security in scope": "PASS",
+  "Scope: services used :: 'Tidewater Edge Gateway' described in report": "PASS",
+  "Subservice orgs :: Example Cloud Hosting, Inc. (carved out)": "REVIEW"
+ },
+ "verifier_version": "2.0.0"
+}

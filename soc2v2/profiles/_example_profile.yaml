@@ -1,0 +1,35 @@
+# Scope profile: HOW THE CLIENT USES THIS VENDOR.
+# One per (client, vendor). The verifier checks that the SOC 2 report covers this scope.
+# Copy into the vendor folder as scope_profile.yaml and edit.
+
+client: "Example Client Inc."
+vendor: "Example Vendor LLC"
+reviewer: "Your name, credentials"
+
+# Products / services the client actually uses. Each should appear in the
+# report's system description, or the report may not cover what you use.
+services_used:
+  - "Example Product Name"
+
+# What client data the vendor touches. Drives which TSC categories matter.
+# Options: none, business_contact, pii, phi, pci, financial, credentials, source_code, confidential_business
+data_types:
+  - pii
+
+# Trust Services Criteria categories the report MUST include for this use.
+# Security is always required.
+required_tsc_categories:
+  - Security
+  - Confidentiality
+  # - Availability        # add if the client depends on uptime
+  # - Processing Integrity
+  # - Privacy
+
+criticality: high          # low | medium | high
+
+# Freshness rules
+max_report_age_months: 12  # report period end must be within this many months
+bridge_letter_after_months: 3   # request a bridge letter if the gap since period end exceeds this
+
+# Optional: client-specific criteria overlays (e.g. a client questionnaire or a crosswalk)
+overlays: []

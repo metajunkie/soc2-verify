@@ -1,0 +1,14 @@
+{
+  "_about": "Locked regression cases on the fictional sample reports (Vendors/Sample-*). A snapshot proves the code still behaves the same; tools/check_samples.py separately proves the parser matches each sample's known ground truth. Add your own signed-off reports as cases locally; never commit real vendor reports (see PARSER_METHOD.md).",
+  "cases": [
+    {"name": "sample_a_headings_numbered", "vendor": "Sample-A", "layout": "criterion headings + numbered controls (1.2.3)",
+     "extraction": "extraction_truth.json", "review_date": "2026-11-10",
+     "signed_off_by": "generator ground truth", "signed_off_on": "2026-11-11", "sign_off_note": "Synthetic; every value known by construction."},
+    {"name": "sample_b_numbered_criteria_column", "vendor": "Sample-B", "layout": "numbered controls (42.) + criteria column",
+     "extraction": "extraction_truth.json", "review_date": "2026-11-10",
+     "signed_off_by": "generator ground truth", "signed_off_on": "2026-11-11", "sign_off_note": "Synthetic; includes a bridge letter."},
+    {"name": "sample_c_headings_unnumbered", "vendor": "Sample-C", "layout": "criterion headings + unnumbered controls",
+     "extraction": "extraction_truth.json", "review_date": "2026-11-10",
+     "signed_off_by": "generator ground truth", "signed_off_on": "2026-11-11", "sign_off_note": "Synthetic; report deliberately older than 12 months."}
+  ]
+}
